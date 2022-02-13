@@ -1,51 +1,36 @@
 body {
     
-   background-color:#242B33;
+ background-color:#242B33;
    
 
 } 
 
 .logo {
 
-  margin-top: 30px;
-  margin-left: 200px;
+ margin-top: 30px;
+ margin-left: 200px;
 
    
 
 } 
 
 .menu {
-  display: flex;
-  list-style-type: none;
-  position: relative;
-  right: 30px;
-  bottom: 50px;
-  margin-left: 700px;
- 
-
-  
+ color: white;
+ display: flex;
+ list-style-type: none;
+ margin-left: 700px;
+ text-decoration-line: none;
 }
 
 .menu-item{
+ margin-right: 40px;
+   }
 
-    margin-right: 40px;
-    
+.menu-line {
+    color: #fff;
+    text-decoration: none;
 }
 
-.a {
-
-  color:white;
-  text-decoration: none;
-
-}
-
-.color {
-
-    color: #D4C17F;
-    text-align: center;
-    line-height: 64px;
-
-}
 
 
 .mouse {
@@ -67,14 +52,12 @@ body {
     
 } 
 
-.div0 {
-    display: inline block;
-}
+
+
 .div1 
 {
     
-    position: relative;
-    top: 100px; 
+    
     color: #fff;
 
     
