@@ -9,6 +9,7 @@ body {
 
  margin-top: 30px;
  margin-left: 200px;
+ 
 
    
 
@@ -24,6 +25,12 @@ body {
 
 .menu-item{
  margin-right: 40px;
+ font-family: 'Raleway', sans-serif;
+ font-weight: normal;
+ font-style: normal;
+ font-size: 14px;
+
+
    }
 
 .menu-line {
@@ -31,12 +38,18 @@ body {
     text-decoration: none;
 }
 
-
+.heading {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    color:#D4C17F;
+}
 
 .mouse {
-  background-image: url("img/mouse.svg");
-  width: 40px;
-  height: 40px;
+   background-image: url("img/mouse.svg");
+   width: 40px;
+   height: 40px;
   
   
 }
@@ -54,21 +67,170 @@ body {
 
 
 
-.div1 
-{
-    
-    
+.div1 {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
     color: #fff;
-
-    
 } 
 
 .tell {
-background-image: url("img/tell.svg");
-display: inline-block;
-width: 21px;
-height: 21px;
-margin-right: 15px;
+   background-image: url("img/tell.svg");
+   display: inline-block;
+   width: 21px;
+   height: 21px;
+   margin-right: 15px;
 } 
+
+.white{
+   color: #fff;
+   text-decoration: none;
+}
+.div2 {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+} 
+.advantages {
+   font-family: 'Roboto', sans-serif;
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   color: #fff;
+} 
+.heading2 {
+   font-family: 'Playfair Display', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   color: #D4C17F;
+}
+.heading3 {
+   font-family: 'Playfair Display', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   color: #D4C17F;
+} 
+.text1 {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 16px;
+   color: #fff;
+}
+.name1 {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: #BEBEBE;
+}
+
+.tell2 {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: #BEBEBE;
+}
+
+.button {
+   background-color: #D4C17F;
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   color: #fff;
+} 
+
+.text2 {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   color: #fff;
+} 
+
+.heading4 {
+   font-family: 'Playfair Display', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   color: #D4C17F;
+} 
+
+.heading5 {
+   font-family: 'Playfair Display', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 36px;
+   color: #D4C17F;
+} 
+
+.text3 {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   color: #fff;
+
+} 
+
+.name2 {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: #BEBEBE;
+} 
+.tell3 {
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   color: #BEBEBE;
+}
+.button1 {
+   background-color: #D4C17F;
+   font-family: 'Raleway', sans-serif;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 16px;
+   color: #fff;
+} 
+
+.menu-lower-item {
+   list-style-type: none;
+}
+.menu-lower-line {
+ font-family: 'Raleway', sans-serif;
+ font-weight: normal;
+ font-style: normal;
+ font-size: 14px;
+ color: #fff;
+ text-decoration: none;
+} 
+
+.contacts {
+ font-family: 'Raleway', sans-serif;
+ font-weight: normal;
+ font-style: normal;
+ font-size: 14px;
+ color: #fff;
+} 
+
+.tell4 {
+   text-decoration: none;
+   color:#fff;
+}
+.e-mail {
+   text-decoration: none;
+   color: #D4C17F;
+}
+
+
 
 
