@@ -6,14 +6,13 @@ body {
 
 } 
 
-.color {
-
+.header__container {
    display: flex;
-   justify-content: center;
- 
- 
- 
+   justify-content: space-between;
+   align-items: center;
+   padding: 30px 0;
 } 
+
 
 .menu {
   color: white;
@@ -22,7 +21,15 @@ body {
   margin-left: 700px;
   text-decoration-line: none;
 }
+.color__container {
+   text-align: center;
+}
 
+.color__links-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .menu__item{
   margin-right: 40px;
   font-size: 14px;
@@ -94,11 +101,20 @@ body {
    font-weight: 300;
    font-size: 20px;
    color: #fff;
-   display: flex;
+   
+   
 } 
+
+.advantages_list-container {
+   display: flex;
+   
+}
 .advantages__item {
    list-style-type: none;
-   flex-direction: row;
+   width: max-content;
+   
+   
+   
 }
 .apartments__item {
    font-size: 24px;
@@ -121,7 +137,7 @@ body {
    color: #BEBEBE;
 }
 
-.look__tell2 {
+.look__tell-form {
    font-size: 14px;
    color: #BEBEBE;
 }
@@ -133,11 +149,11 @@ body {
    color: #fff;
 } 
 
-.look__text2 {
+.look__text-after-form {
    font-size: 13px;
    color: #fff;
 } 
-.questions__text3 {
+.questions__text-before-form {
    font-size: 13px;
    color: #fff;
 } 
@@ -146,7 +162,7 @@ body {
    font-size: 14px;
    color: #BEBEBE;
 } 
-.questions__tell2 {
+.questions__tell-form {
    font-size: 14px;
    color: #BEBEBE;
 }
