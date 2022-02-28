@@ -1,10 +1,28 @@
+/* Общие стили */
+
 body {
     
   background-color:#242B33;
   font-family: 'Raleway', sans-serif;
-   
-
 } 
+
+.container {
+   width: 1100px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.heading {
+   font-family: 'Playfair Display', sans-serif;
+   font-weight: bold;
+   font-size: 36px;
+   color: #D4C17F; 
+} 
+
+/* Конец Общие стили */
+
+
+/* Шапка стили */
 
 .header__container {
    display: flex;
@@ -12,23 +30,12 @@ body {
    align-items: center;
    padding: 30px 0;
 } 
-
-
 .menu {
   color: white;
   display: flex;
   list-style-type: none;
   margin-left: 700px;
   text-decoration-line: none;
-}
-.color__container {
-   text-align: center;
-}
-
-.color__links-container {
-   display: flex;
-   justify-content: center;
-   align-items: center;
 }
 .menu__item{
   margin-right: 40px;
@@ -43,6 +50,25 @@ body {
    color: #D4C17F;
 }
 
+/* Конец Шапка стили */
+
+/* Жилой комплекс стили */
+
+.color {
+   background-image: url("img/bg.png");
+   width: auto;
+   height: auto;
+}
+
+.color__container {
+   text-align: center;
+}
+
+.color__links-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
 .color__title {
    font-family: 'Playfair Display', sans-serif;
    font-weight: bold;
@@ -55,30 +81,19 @@ body {
    width: 40px;
    height: 40px;
 }
-
-.div1__map {
+.river__white {
+   font-size: 18px;
+   color:#fff;
+}
+.river__map {
    background-image: url("img/map.svg");
    display: inline-block;
    width: 15px;
    height: 21px;
    margin-right: 15px;
-   }
-.color__img {
-    align-items: center;
-   } 
-.container1__div1 {
-   font-size: 18px;
    color: #fff;
 } 
-.container1 {
-   display: flex;
-   flex-direction: row;
-}
-.color__flex {
-   flex-direction: row;
-}
-
-.div2__tell {
+.number__tell {
    background-image: url("img/tell.svg");
    display: inline-block;
    width: 21px;
@@ -86,49 +101,66 @@ body {
    margin-right: 15px;
 } 
 
-.div2__white{
+.number__white {
+   font-size: 18px;
    color: #fff;
    text-decoration: none;
 }
-.div2__white:hover {
+.number__white:hover {
    color: #D4C17F;
 }
-.div2 {
-   font-size: 18px;
-} 
+
+/* Конец Жилой комплекс стили */
+
+/* Преимущества стили */
+
 .advantages {
    font-family: 'Roboto', sans-serif;
    font-weight: 300;
    font-size: 20px;
    color: #fff;
-   
-   
+   padding-top: 120px;
+   padding-bottom: 120px;
 } 
-
-.advantages_list-container {
+.advantages__list {
    display: flex;
-   
+   margin: 0pc;
+   padding: 0px;
+   justify-content: center;
+   text-align: center;
 }
 .advantages__item {
    list-style-type: none;
-   width: max-content;
-   
-   
+   margin-left: 35px;
+   margin-right: 35px;
+}
+.advantages__img-container {
+   padding-top: 15px;
+}
+
+/* Конец Преимущества стили */
+
+/* Лофт стили */
+
+.apartments__list {
+   display: flex;
+   flex-wrap: wrap;
    
 }
 .apartments__item {
    font-size: 24px;
    color:#fff;
    list-style-type: none;
-   
+   width: 535px;
+   padding-left: 15px;
+   padding-right: 15px;
 }
-.heading {
-   font-family: 'Playfair Display', sans-serif;
-   font-weight: bold;
-   font-size: 36px;
-   color: #D4C17F;
-}
-.look__text1 {
+
+/* Конец Лофт стили */
+
+/* Look стили */
+
+.look__description {
    font-size: 16px;
    color: #fff;
 }
@@ -153,6 +185,11 @@ body {
    font-size: 13px;
    color: #fff;
 } 
+
+/* Конец Look стили */
+
+/* Questions стили */
+
 .questions__text-before-form {
    font-size: 13px;
    color: #fff;
@@ -173,6 +210,10 @@ body {
    color: #fff;
 } 
 
+/* Конец Questions стили */
+
+/* Футер стили */
+
 .menu-lower__item {
    list-style-type: none;
 }
@@ -191,7 +232,6 @@ body {
 .contacts__item {
    list-style-type: none;
 }
-
 .contacts__tell4 {
    text-decoration: none;
    color:#fff;
@@ -209,17 +249,18 @@ body {
 .icon__item {
    list-style-type: none;
 }
-.yotube-icon:hover {
+.yotube-icon:hover path {
    fill:#D4C17F;
 }
-.vk-icon:hover {
+.vk-icon:hover path {
    fill:#D4C17F;
 }
-.facebook-icon:hover {
+.facebook-icon:hover path {
    fill:#D4C17F;
 } 
-.instagram-icon:hover {
+.instagram-icon:hover path {
    fill: #D4C17F;
 }
 
+/* Конец Футер стили */
 
