@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">wq 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="normalize.css">
@@ -63,25 +63,29 @@
         </div>
         </section>
         <section class="look">
-        <div class="container">
+        <div class="container look__container">
+        <div class="look__inner-container">
         <h2 class="heading">Хотите посмотреть?</h2>
           <p class="look__description">Lorem Ipsum - это текст-"рыба, часто ипользуемый в печати и<br>веб дизайне.
             Lorem Ipsum является стандартной "рыбой" для текстов
            <br>на латинице с начала XVI века. В то время некий безымянный
            <br>печатник создал большую коллекцию размеров и форм шрифтов,<br>
             используя Lorem Ipsum для распечатки образцов.</p>
-          <form>
-             <input class="look__name" type="text" placeholder="Ваше имя">
-             <input class="look__tell-form" type="tel" placeholder="Ваш телефон">
-             <input class="look__button" type="submit" value="Посмотреть район">
+        </div>
+        <div class="look__inner-container">
+          <form class="look__personal">
+             <input class="personal look__name" type="text" placeholder="Ваше имя">
+             <input class="personal look__tell-form" type="tel" placeholder="Ваш телефон">
+             <p class="pesonal look__text-after-form">Мы никому не передаем ваши данные.<br>
+              И не сохраняем ваш номер в базу</p>
+             <input class="personal look__button" type="submit" value="Посмотреть район">
           </form>
-             <p class="look__text-after-form">Мы никому не передаем ваши данные.<br>
-             И не сохраняем ваш номер в базу</p>
+        </div>
         </div>
         </section>
         <section class="video">
-        <div class="container">
-            <h2 class="heading">Видео-обзор комплекса</h2>
+        <div class="container video__container">
+            <h2 class="heading video__heading">Видео-обзор комплекса</h2>
             <iframe class="video__review"  width="560" height="315" src="https://www.youtube.com/embed/Jg407DH_CuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         </section>
@@ -105,6 +109,7 @@
         </section>
     </main>
     <footer>
+      <div class="container footer__container">
       <img class="logo" src="img/logo.svg" alt="Логотип">
       <ul class="menu-lower">
         <li class="menu-lower__item"><a class="menu-lower__line" href="">О комплексе</a></li>
@@ -127,6 +132,7 @@
         <li class="contacts__item"><p>Отдел продаж: 10:00 - 20:00</p></li>
         <li class="contacts__item"><p>E-mail: <a class="contacts__e-mail" href="vip@housevip.ru">vip@housevip.ru</a></p></li>
       </ul>
+      </address>
       <ul class="icon__list">
         <li class="icon__item">
          <a href="https://www.youtube.com/" class="yotube-icon">
@@ -162,7 +168,7 @@
     </a>
   </li>
   </ul>
-  </address>
+  </div>
   </footer>
 </body>
 </html>
