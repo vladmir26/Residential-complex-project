@@ -21,6 +21,11 @@ body {
    color: #D4C17F; 
 } 
 
+.personal {
+   width: 255px;
+   height: 50px;
+}
+
 /* Конец Общие стили */
 
 
@@ -173,7 +178,7 @@ body {
 .look__container {
    display: flex;
    padding: 0px;
-   justify-content: flex-end;
+   align-items: flex-end;
 }
 
 .look__inner-container {
@@ -182,10 +187,22 @@ body {
 
 .look__personal {
    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   
    
 }
-.personal {
-   width: 255px;
+.look__personal-container {
+   width: 50%;
+   margin-bottom: 35px;
+}
+
+.look__personal-container:nth-child(1) {
+   margin-bottom: 5px;
+}
+.look__personal-container:nth-child(3),
+.look__personal-container:nth-child(4) {
+   margin-bottom: 0;
 }
 .look__description {
    font-size: 16px;
@@ -193,12 +210,16 @@ body {
 }
 .look__name {
    font-size: 14px;
+   background-color: rgba(255,255,255,0.2);
+   text-align: center;
    color: #BEBEBE;
 }
 
 .look__tell-form {
    font-size: 14px;
    color: #BEBEBE;
+   background-color: rgba(255,255,255,0.2);
+   text-align: center;
 }
 
 .look__button {
@@ -206,11 +227,15 @@ body {
    font-weight: bold;
    font-size: 16px;
    color: #fff;
+   border: 0;
 } 
 
 .look__text-after-form {
    font-size: 13px;
    color: #fff;
+   text-align: center;
+   width: 255px;
+   height: 28px;
 } 
 
 /* Конец Look стили */
@@ -230,24 +255,47 @@ body {
 
 /* Questions стили */
 
+.questions__container {
+   display: flex;
+   padding: 0; 
+   align-items: flex-end;
+}
+.questions__inner-container {
+   width: 50%;
+}
+
+.questions__personal {
+   display: flex;
+   align-items: center;
+} 
+.questions__personal-container {
+   width: 50%;
+   padding-right: 30px;
+}
 .questions__text-before-form {
    font-size: 13px;
    color: #fff;
+   text-align: center;
 } 
 
 .questions__name {
    font-size: 14px;
    color: #BEBEBE;
+   text-align: center;
+   background-color: rgba(255,255,255,0.2);
 } 
 .questions__tell-form {
    font-size: 14px;
    color: #BEBEBE;
+   text-align: center;
+   background-color: rgba(255,255,255,0.2);
 }
 .questions__button {
    background-color: #D4C17F;
    font-weight: bold;
    font-size: 16px;
    color: #fff;
+   border: 0;
 } 
 
 /* Конец Questions стили */
@@ -259,8 +307,6 @@ body {
    align-items: flex-start;
    margin-top: 0px;
    justify-content: space-between;
-   
-   
 }
 
 .menu-lower__item {
@@ -278,9 +324,6 @@ body {
 .contacts {
    font-size: 14px;
    color: #fff;
-   
-   
-   
 } 
 .contacts__list {
 padding-left: 83px;

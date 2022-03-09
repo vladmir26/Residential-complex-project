@@ -74,11 +74,19 @@
         </div>
         <div class="look__inner-container">
           <form class="look__personal">
-             <input class="personal look__name" type="text" placeholder="Ваше имя">
-             <input class="personal look__tell-form" type="tel" placeholder="Ваш телефон">
-             <p class="pesonal look__text-after-form">Мы никому не передаем ваши данные.<br>
-              И не сохраняем ваш номер в базу</p>
-             <input class="personal look__button" type="submit" value="Посмотреть район">
+            <div class="look__personal-container">
+              <input class="personal look__name" type="text" placeholder="Ваше имя">
+            </div>
+            <div class="personal-container">
+              <input class="personal look__tell-form" type="tel" placeholder="Ваш телефон">
+            </div>
+            <div class="look__personal-container">
+              <p class="pesonal look__text-after-form">Мы никому не передаем ваши данные.<br>
+            И не сохраняем ваш номер в базу</p>
+            </div>
+            <div class="look__personal-container">
+              <input class="personal look__button" type="submit" value="Посмотреть район">
+            </div>
           </form>
         </div>
         </div>
@@ -96,15 +104,25 @@
          </div>
         </section>
         <section class="questions">
-          <div class="container">
+          <div class="container questions__container">
+          <div class="questions__inner-container">
           <h2 class="heading">Есть вопросы?</h2>
           <p class="questions__text-before-form">Мы никому не передаем ваши данные.<br>
             И не сохраняем ваш номер в базу</p>
-        <form>
-           <input class="questions__name" type="text" placeholder="Ваше имя">
-           <input class="questions__tell-form" type="tel" placeholder="Ваш телефон">
-           <input class="questions__button" type="submit" value="Посмотреть район">
+        </div>
+        <div class="text-container questions__inner-container">
+        <form class="questions__personal">
+          <div class="questions__personal-container">
+           <input class="personal questions__name" type="text" placeholder="Ваше имя">
+          </div>
+          <div class="questions__personal-container">
+           <input class="personal questions__tell-form" type="tel" placeholder="Ваш телефон">
+          </div>
+          <div class="questions__personal-container">
+           <input class="personal questions__button" type="submit" value="Посмотреть район">
+          </div>
         </form>
+        </div>
         </div>
         </section>
     </main>
