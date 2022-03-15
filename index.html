@@ -27,7 +27,7 @@
       </div>
     </header>
     <main>
-      <section class="color">
+      <section class="section color">
         <div class="container color__container">
           <h1 class="heading color__title">Жилой комплекс<br>в историческом центре<br></h1>
           <img class="color__mouse" src="img/mouse.svg" alt="Мышь">
@@ -41,7 +41,7 @@
           </div>
         </div>
       </section>
-        <section class="advantages">
+        <section class="section advantages">
         <div class="container advantages__container">
         <ul class="advantages__list">
           <li class="advantages__item"><img src="img/park.svg" alt="Парки"><p>Рядом исторические <br>парки и скверы</p></li>
@@ -51,18 +51,26 @@
         </ul>
         </div>
         </section>
-        <section class="apartments">
+        <section class="section apartments">
         <div class="container apartments_container">
           <h2 class="heading">Наши квартиры</h2>
         <ul class="apartments__list">
-          <li class="apartments__item"><img src="img/loft3.jpg" alt="Лофт 3"><p>Лофт-3 этажа</p></li>
-          <li class="apartments__item"><img src="img/loft2.jpg" alt="Лофт 2"><p>Лофт-2 этажа</p></li>
-          <li class="apartments__item"><img src="img/loft3.jpg" alt="Лофт 3"><p>Лофт-3 этажа</p></li>
-          <li class="apartments__item"><img src="img/loft2.jpg" alt="Лофт 2"><p>Лофт-2 этажа</p></li>
+          <li class="apartments__item"><img src="img/loft3.jpg" alt="Лофт 3">
+            <div class="apartments__text-container"><p class="apartments__text">Лофт-3 этажа</p></div>
+          </li>
+          <li class="apartments__item"><img src="img/loft2.jpg" alt="Лофт 2">
+            <div class="apartments__text-container"><p class="apartments__text">Лофт-2 этажа</p></div>
+          </li>
+          <li class="apartments__item"><img src="img/loft3.jpg" alt="Лофт 3">
+            <div class="apartments__text-container"><p class="apartments__text">Лофт-3 этажа</p></div>
+          </li>
+          <li class="apartments__item"><img src="img/loft2.jpg" alt="Лофт 2">
+            <div class="apartments__text-container"><p class="apartments__text">Лофт-2 этажа</p></div>
+          </li>
         </ul>
         </div>
         </section>
-        <section class="look">
+        <section class="section look">
         <div class="container look__container">
         <div class="look__inner-container">
         <h2 class="heading">Хотите посмотреть?</h2>
@@ -91,29 +99,24 @@
         </div>
         </div>
         </section>
-        <section class="video">
+        <section class="section video">
         <div class="container video__container">
             <h2 class="heading video__heading">Видео-обзор комплекса</h2>
-            <iframe class="video__review"  width="560" height="315" src="https://www.youtube.com/embed/Jg407DH_CuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="video__review"  width="720" height="650" src="https://www.youtube.com/embed/Jg407DH_CuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
         </section>
-        <section class="area">
+        <section class="section area">
         <div class="container">
          <h2 class="heading">Район на карте</h2> 
-         <div class="area__map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/geo/naberezhnaya_reki_fontanki/8020541/?ll=30.307702%2C59.931560&utm_medium=mapframe&utm_source=maps&z=13.4" style="color:#eee;font-size:12px;position:absolute;top:14px;">Набережная реки Фонтанки — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCU5B0XWkD" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+         <div class="area__map" style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a><a href="https://yandex.ru/maps/2/saint-petersburg/geo/naberezhnaya_reki_fontanki/8020541/?ll=30.307702%2C59.931560&utm_medium=mapframe&utm_source=maps&z=13.4" style="color:#eee;font-size:12px;position:absolute;top:14px;">Набережная реки Фонтанки — Яндекс.Карты</a><iframe src="https://yandex.ru/map-widget/v1/-/CCU5B0XWkD" width="100%" height="360" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
          </div>
         </section>
-        <section class="questions">
+        <section class="section questions">
           <div class="container questions__container">
-          <div class="questions__inner-container">
           <h2 class="heading">Есть вопросы?</h2>
-          </div>
-          <div class="questions__inner-container">
+        <form class="questions__personal">
           <p class="questions__text-before-form">Мы никому не передаем ваши данные.<br>
             И не сохраняем ваш номер в базу</p>
-        </div>
-        <div class="questions__inner-container">
-        <form class="questions__personal">
           <div class="questions__personal-container">
            <input class="personal questions__name" type="text" placeholder="Ваше имя">
           </div>
@@ -124,7 +127,6 @@
            <input class="personal questions__button" type="submit" value="Посмотреть район">
           </div>
         </form>
-        </div>
         </div>
         </section>
     </main>

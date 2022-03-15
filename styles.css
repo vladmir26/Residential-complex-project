@@ -23,6 +23,11 @@ body {
    color: #D4C17F; 
 } 
 
+.section {
+   padding-top: 90px;
+   padding-bottom: 90px;
+}
+
 .personal {
    width: 255px;
    height: 50px;
@@ -92,11 +97,12 @@ body {
    font-weight: bold;
    font-size: 48px;
    color:#D4C17F;
+   margin-top: 0;
+
    
 }
 
 .color__mouse {
-   background-image: url("img/mouse.svg");
    width: 40px;
    height: 40px;
   
@@ -166,15 +172,32 @@ body {
    display: flex;
    flex-wrap: wrap;
    padding: 0px;
-   
+   align-items: flex-start;
 }
 .apartments__item {
+   position: relative;
    font-size: 24px;
    color:#fff;
    list-style-type: none;
-   width: 50%;
-   padding-left: 15px;
-   
+   width: calc(50% - 15px);
+   margin-left: 15px;
+} 
+.apartments__text-container {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%);
+   display: flex;
+   align-items: flex-end;
+  
+}
+.apartments__text {
+   position: absolute;
+   left: 0;
+   padding-left: 50px;
+   padding-bottom: 50px;
 }
 
 /* Конец Лофт стили */
@@ -194,7 +217,7 @@ body {
 .look__personal {
    display: flex;
    flex-wrap: wrap;
-   align-items: center;
+   align-items: flex-start;
    
    
 }
@@ -242,6 +265,7 @@ body {
    text-align: center;
    width: 255px;
    height: 28px;
+   margin: 0;
 } 
 
 /* Конец Look стили */
@@ -261,28 +285,27 @@ body {
 
 /* Questions стили */
 
-.questions__inner-container {
-   display: flex;
-   padding: 0; 
-   align-items: flex-start;
-   
-}
 
 .questions__personal {
    display: flex;
    flex-direction: row;
+   align-items: flex-end;
+   justify-content: space-between;
 
 
    
 } 
 .questions__personal-container {
-   width: 50%;
-   padding-right: 30px;
+   width: 25%;
+   flex-grow: 0;
+   
 }
 .questions__text-before-form {
    font-size: 13px;
    color: #fff;
    text-align: center;
+   width: 25%;
+   margin: 0;
 } 
 
 .questions__name {
@@ -316,9 +339,12 @@ body {
    justify-content: space-between;
 }
 
+.menu__lover {
+   padding-left: 83px;
+}
 .menu-lower__item {
    list-style-type: none;
-   padding-left: 83px;
+   
 }
 .menu-lower__line {
    font-size: 14px;
