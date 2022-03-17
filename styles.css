@@ -78,11 +78,14 @@ body {
    height: calc(100vh - 126px);
    display: flex;
    justify-content: center;
-   align-items: center;
+   
 }
 
 .color__container {
    text-align: center;
+   margin-top: 35px;
+   
+   
    
    
 }
@@ -97,7 +100,9 @@ body {
    font-weight: bold;
    font-size: 48px;
    color:#D4C17F;
-   margin-top: 0;
+   margin-top: 60px;
+   margin-left: 55px;
+   line-height: 72px;
 
    
 }
@@ -105,20 +110,34 @@ body {
 .color__mouse {
    width: 40px;
    height: 40px;
+   margin-top: 80px;
+   margin-left: 69px;
   
+}
+.river {
+   margin-right: 95px;
+   margin-top: 195px;
+   
+
 }
 .river__white {
    font-size: 18px;
    color:#fff;
+   margin-bottom: 10px;
+   margin-right: 5px;
+   
 }
 .river__map {
    background-image: url("img/map.svg");
    display: inline-block;
    width: 15px;
    height: 21px;
-   margin-right: 15px;
+   margin-right: 21px;
    color: #fff;
 } 
+.number {
+   margin-top: 195px;
+}
 .number__tell {
    background-image: url("img/tell.svg");
    display: inline-block;
@@ -131,6 +150,7 @@ body {
    font-size: 18px;
    color: #fff;
    text-decoration: none;
+   margin-bottom: 70px;
 }
 .number__white:hover {
    color: #D4C17F;
