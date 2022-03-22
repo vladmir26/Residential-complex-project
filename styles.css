@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-   max-width: 1100px;
+   max-width: 1160px;
    margin-left: auto;
    width: 100%;
    margin-right: auto;
@@ -84,16 +84,13 @@ body {
 .color__container {
    text-align: center;
    margin-top: 35px;
-   
-   
-   
-   
 }
 
 .color__links-container {
    display: flex;
    justify-content: center;
    align-items: center;
+   margin-top: 125px;
 }
 .color__title {
    font-family: 'Playfair Display', sans-serif;
@@ -101,24 +98,18 @@ body {
    font-size: 48px;
    color:#D4C17F;
    margin-top: 60px;
-   margin-left: 55px;
+   margin-right: 10px;
    line-height: 72px;
-
-   
 }
 
 .color__mouse {
    width: 40px;
    height: 40px;
    margin-top: 80px;
-   margin-left: 69px;
-  
+   margin-left: 12px;
 }
 .river {
    margin-right: 95px;
-   margin-top: 195px;
-   
-
 }
 .river__white {
    font-size: 18px;
@@ -135,9 +126,6 @@ body {
    margin-right: 21px;
    color: #fff;
 } 
-.number {
-   margin-top: 195px;
-}
 .number__tell {
    background-image: url("img/tell.svg");
    display: inline-block;
@@ -179,14 +167,29 @@ body {
    list-style-type: none;
    margin-left: 35px;
    margin-right: 35px;
+   margin-top: 115px;
 }
-.advantages__img-container {
+
+.advantages__item:last-child {
    padding-top: 15px;
 }
 
+.advantages__img-container { 
+   margin-bottom: 53px;
+} 
+.advantages__text {
+   line-height: 27px;
+}
+
+
 /* Конец Преимущества стили */
 
-/* Лофт стили */
+/* Лофт стили */ 
+
+.apartments__heading {
+  margin-bottom: 100px;
+  margin-left: 30px;
+}
 
 .apartments__list {
    display: flex;
@@ -201,7 +204,12 @@ body {
    list-style-type: none;
    width: calc(50% - 15px);
    margin-left: 15px;
+   margin-top: 15px;
 } 
+.apartments__img {
+   width: 540px;
+   height: 325px;
+}
 .apartments__text-container {
    position: absolute;
    top: 0;
@@ -216,8 +224,8 @@ body {
 .apartments__text {
    position: absolute;
    left: 0;
-   padding-left: 50px;
-   padding-bottom: 50px;
+   padding-left: 60px;
+   padding-bottom: 70px;
 }
 
 /* Конец Лофт стили */
@@ -234,6 +242,9 @@ body {
    width: 50%;
 }
 
+.look__heading {
+   margin-bottom: 30px;
+}
 .look__personal {
    display: flex;
    flex-wrap: wrap;
