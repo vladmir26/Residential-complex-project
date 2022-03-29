@@ -221,8 +221,8 @@ body {
 .advantages__list { 
    display: block;
 }
-.advantages__img-container {
-   margin-bottom: 0;
+.advantages__item {
+   padding-top: 50px;
 }
 }
 
@@ -268,6 +268,12 @@ body {
    left: 0;
    left: 45px;
    bottom: 50px;
+} 
+
+@media screen and (max-width: 767px) { 
+.apartments__list {
+   display: block;
+} 
 }
 
 /* Конец Лофт стили */
@@ -342,6 +348,24 @@ body {
    margin: 0;
 } 
 
+@media screen and (max-width: 767px) { 
+   .look__container {
+      display: block;
+   } 
+   .look__personal {
+      display: block;
+      margin-top: 50px;
+   }
+   .look__inner-container {
+      width: 100%;
+   } 
+   .look__personal-container:nth-child(2),
+   .look__personal-container:nth-child(3),
+   .look__personal-container:nth-child(4) {
+      margin-bottom: 40px;
+   }
+}
+
 /* Конец Look стили */
 
 /* Видео стили */
@@ -413,6 +437,15 @@ body {
    color: #fff;
    border: 0;
 } 
+
+@media screen and (max-width: 767px) { 
+   .questions__personal {
+      display: block;
+   }
+   .questions__text-before-form {
+      width: 100%;
+   }
+}
 
 /* Конец Questions стили */
 
@@ -496,5 +529,14 @@ body {
    fill: #D4C17F;
 }
 
-/* Конец Футер стили */
 
+@media screen and (max-width: 767px) { 
+   .footer__container {
+      display: block;
+      text-align: center;
+   }
+   .contacts__list {
+      margin-left: 50px;
+   } 
+}
+/* Конец Футер стили */
