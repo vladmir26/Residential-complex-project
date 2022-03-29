@@ -159,6 +159,24 @@ body {
    color: #D4C17F;
 }
 
+@media screen and (max-width: 767px) { 
+   .color {
+      display: block;
+   }
+   .color__container {
+      text-align: center;
+   } 
+   .color__links-container {
+      display: block;
+      margin-top: 60px;
+   }
+   .river {
+      margin-right: 0;
+      margin-left: 70px;
+   }
+   
+}
+
 /* Конец Жилой комплекс стили */
 
 /* Преимущества стили */
@@ -195,6 +213,18 @@ body {
    line-height: 27px;
 }
 
+
+@media screen and (max-width: 767px) { 
+.advantages {
+  margin-top: 200px;
+}   
+.advantages__list { 
+   display: block;
+}
+.advantages__img-container {
+   margin-bottom: 0;
+}
+}
 
 /* Конец Преимущества стили */
 
