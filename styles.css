@@ -68,6 +68,21 @@ body {
    color: #D4C17F;
 }
 
+
+@media screen and (max-width: 767px) {
+   .header__container {
+      display: block;
+      text-align: center;
+   }
+   .menu {
+      display: block;
+   }
+   .menu__item {
+      margin-bottom: 10px;
+      margin-right: 0;
+   }
+}
+
 /* Конец Шапка стили */
 
 /* Жилой комплекс стили */
@@ -316,9 +331,6 @@ body {
 
 .area__heading {
    margin-bottom: 100px;
-} 
-.area__map {
-   margin-bottom: 160px;
 }
 
 /* Конец Карта стили */
@@ -382,10 +394,12 @@ body {
    margin-top: 0px;
    justify-content: space-between;
    margin-top: 150px;
+   margin-bottom: 60px;
 }
 
 .menu__lover {
    padding-left: 0;
+   
 
 }
 .menu-lower__item {
@@ -403,11 +417,11 @@ body {
 .contacts {
    font-size: 14px;
    color: #fff;
+   margin-top: 5px;
 } 
 .contacts__list {
    padding-left: 0;
    padding-right: 70px;
-   margin: 0px;
 }
 .contacts__item {
    list-style-type: none;
@@ -436,7 +450,7 @@ body {
 }
 .icon__item {
    list-style-type: none;
-   padding-left: 17px;
+   padding-right: 17px;
    padding-top: 20px;
 }
 .yotube-icon:hover path {
