@@ -19,7 +19,7 @@ body {
 .heading {
    font-family: 'Playfair Display', sans-serif;
    font-weight: bold;
-   font-size: 36px;
+   font-size: 30px;
    color: #D4C17F; 
 } 
 
@@ -170,6 +170,9 @@ body {
       display: block;
       margin-top: 60px;
    }
+   .color__title {
+      font-size: 37px;
+   }
    .river {
       margin-right: 0;
       margin-left: 70px;
@@ -274,6 +277,9 @@ body {
 .apartments__list {
    display: block;
 } 
+.apartments__img {
+   width: 320px;
+}
 }
 
 /* Конец Лофт стили */
@@ -379,6 +385,12 @@ body {
    margin: 0px;
 }
 
+
+@media screen and (max-width: 767px) { 
+   .video__review {
+      width: 320px;
+   }
+}
 /* Конец Видео стили */
 
 /* Карта стили */
@@ -444,6 +456,9 @@ body {
    }
    .questions__text-before-form {
       width: 100%;
+   }
+   .questions__personal-container {
+      margin-top: 50px;
    }
 }
 
@@ -538,5 +553,8 @@ body {
    .contacts__list {
       margin-left: 50px;
    } 
+   .icon__list {
+      padding-left: 75px;
+   }
 }
 /* Конец Футер стили */
