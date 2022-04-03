@@ -172,10 +172,10 @@ body {
    }
    .color__title {
       font-size: 37px;
+      padding-left: 10px;
    }
    .river {
       margin-right: 0;
-      margin-left: 70px;
    }
    
 }
@@ -274,9 +274,15 @@ body {
 } 
 
 @media screen and (max-width: 767px) { 
+.apartments__heading {
+   padding-left: 40px;
+}
 .apartments__list {
    display: block;
 } 
+.apartments__item {
+   width: 100%;
+}
 .apartments__img {
    width: 320px;
 }
@@ -361,6 +367,7 @@ body {
    .look__personal {
       display: block;
       margin-top: 50px;
+      padding-left: 25px;
    }
    .look__inner-container {
       width: 100%;
@@ -369,6 +376,12 @@ body {
    .look__personal-container:nth-child(3),
    .look__personal-container:nth-child(4) {
       margin-bottom: 40px;
+   }
+   .look__heading {
+      padding-left: 10px;
+   }
+   .look__description {
+      padding-left: 7px;
    }
 }
 
@@ -387,8 +400,8 @@ body {
 
 
 @media screen and (max-width: 767px) { 
-   .video__review {
-      width: 320px;
+ .video__review {
+   width: 320px;
    }
 }
 /* Конец Видео стили */
@@ -398,6 +411,13 @@ body {
 .area__heading {
    margin-bottom: 100px;
 }
+
+@media screen and (max-width: 767px) {
+   .area__heading {
+     padding-left: 40px;
+   }
+}
+  
 
 /* Конец Карта стили */
 
@@ -451,8 +471,12 @@ body {
 } 
 
 @media screen and (max-width: 767px) { 
+   .questions__heading {
+      padding-left: 40px;
+   }
    .questions__personal {
       display: block;
+      padding-left: 25px;
    }
    .questions__text-before-form {
       width: 100%;
