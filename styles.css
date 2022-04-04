@@ -33,6 +33,13 @@ body {
    height: 50px;
 }
 
+@media screen and (max-width: 767px) {
+   .section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+   }
+}
+
 /* Конец Общие стили */
 
 
@@ -573,6 +580,7 @@ body {
    .footer__container {
       display: block;
       text-align: center;
+      margin-top: 70px;
    }
    .contacts__list {
       margin-left: 50px;
