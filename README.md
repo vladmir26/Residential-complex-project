@@ -15,4 +15,4 @@
 
 Ниже представлен скриншот проекта:
 
-<img src='./img/Residential-complex-project.png' width='200' height='700' alt=''/>
+<img src='./img/Residential-complex-project.png' height='600' alt=''/>
