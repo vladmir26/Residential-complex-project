@@ -12,3 +12,5 @@
 - Flexbox,
 - БЭМ,
 - адаптивная верстка с использованием медиа-выражений.
+
+<img src='./img/Residential-complex-project.png' alt=''/>
