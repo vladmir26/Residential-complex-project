@@ -13,4 +13,6 @@
 - БЭМ,
 - адаптивная верстка с использованием медиа-выражений.
 
-<img src='./img/Residential-complex-project.png' alt=''/>
+Ниже представлен скриншот проекта:
+
+<img src='./img/Residential-complex-project.png' width='500' height='500' alt=''/>
