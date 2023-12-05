@@ -1,7 +1,7 @@
 <h1>Residential-complex-project</h1>
 
 <h2>Description</h2>
-Одностраничный сайт жилого комплекса в историческом центре.
+Одностраничный сайт жилого комплекса.
 
 Ссылка на сайт:   https://vladmir26.github.io/Residential-complex-project/ 
 
